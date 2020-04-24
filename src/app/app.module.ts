@@ -10,10 +10,12 @@ import {MatCardModule} from '@angular/material/card';
 import {MatButtonModule} from '@angular/material/button'
 import 'hammerjs';
 import { MenuComponent } from './menu/menu.component';
+import { DishdetailsComponent } from './dishdetails/dishdetails.component';
 @NgModule({
   declarations: [
     AppComponent,
-    MenuComponent
+    MenuComponent,
+    DishdetailsComponent
   ],
   imports: [
     BrowserModule,
