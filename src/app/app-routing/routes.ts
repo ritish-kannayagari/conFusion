@@ -10,5 +10,6 @@ export const routes :Routes=[
     {path:'menu',component:MenuComponent},
     {path:'',redirectTo:'/home',pathMatch:'full'},
     {path:'dishdetails/:id',component:DishdetailsComponent},
-    {path:'contactus',component:ContactComponent}
+    {path:'contactus',component:ContactComponent},
+    {path:'aboutus',component:AboutComponent}
 ];
