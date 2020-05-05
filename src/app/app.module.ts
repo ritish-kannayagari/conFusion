@@ -9,6 +9,10 @@ import {MatListModule} from '@angular/material/list';
 import {MatCardModule} from '@angular/material/card';
 import {MatButtonModule} from '@angular/material/button';
 import {MatDialogModule} from '@angular/material/dialog';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatInputModule} from '@angular/material/input';
+import {MatCheckboxModule} from '@angular/material/checkbox';
+import {FormsModule} from '@angular/forms';
 import 'hammerjs';
 import { MenuComponent } from './menu/menu.component';
 import { DishdetailsComponent } from './dishdetails/dishdetails.component';
@@ -47,7 +51,10 @@ import { from } from 'rxjs';
     MatCardModule,
     MatButtonModule,
     AppRoutingModule,
-    MatDialogModule
+    MatDialogModule,
+    MatFormFieldModule,
+    MatCheckboxModule,
+    MatInputModule,FormsModule
   ],
   providers: [DishService,PromotionService,LeaderService],
   bootstrap: [AppComponent],
