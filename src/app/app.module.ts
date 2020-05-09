@@ -16,6 +16,7 @@ import {FormsModule} from '@angular/forms';
 import {ReactiveFormsModule} from '@angular/forms';
 import {MatSelectModule} from '@angular/material/select';
 import {MatSlideToggleModule} from '@angular/material/slide-toggle';
+import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
 import 'hammerjs';
 import { MenuComponent } from './menu/menu.component';
 import { DishdetailsComponent } from './dishdetails/dishdetails.component';
@@ -58,7 +59,8 @@ import { from } from 'rxjs';
     MatFormFieldModule,
     MatCheckboxModule,
     MatInputModule, FormsModule, ReactiveFormsModule,
-    MatSelectModule, MatSlideToggleModule
+    MatSelectModule, MatSlideToggleModule,
+    MatProgressSpinnerModule
   ],
   providers: [DishService,PromotionService, LeaderService],
   bootstrap: [AppComponent],
